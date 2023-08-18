@@ -3,7 +3,7 @@ import { FiArrowUpRight } from "react-icons/fi"
 
 const Navbar = () => {
     return (
-        <div className="flex gap-2">
+        <div className="flex gap-2 px-3">
             <button className="bg-white p-1 rounded-xl text-[#7E7E7E] border border-[#D2D2D2] flex px-2 text-sm shadow-md backdrop-blur-md backdrop-filter  items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
                     <circle cx="10" cy="2" r="2" fill="#FF824D" />
