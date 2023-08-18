@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
-import "./TopSection.css";
+import "./style.css";
 const TopSection = () => {
     return (
         <div className='bg pt-2 pb-6'>

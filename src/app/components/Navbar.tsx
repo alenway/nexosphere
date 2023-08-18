@@ -1,5 +1,6 @@
 import React from 'react'
-import { FiArrowUpRight } from "react-icons/fi"
+import ContactBtn from './ContactBtn'
+import { FiArrowUpRight } from 'react-icons/fi'
 
 const Navbar = () => {
     return (
