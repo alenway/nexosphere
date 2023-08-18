@@ -25,7 +25,7 @@ const CombinatioSection = () => {
                     </div>
                 </div>
 
-                <div className="pt-40 grid grid-cols-4">
+                <div className="mt-40 grid grid-cols-4">
                     <div className="col-span-3">
                         <h1 className="text-5xl">Unique combination of solutions & services in Generative AI, ML, Data & Customer Experience </h1>
                     </div>
@@ -36,13 +36,21 @@ const CombinatioSection = () => {
                         <p>-- with a special focus in the Asia-Pacific region, supported by a super-talented local and global team</p>
                     </div>
 
-                    <div className="pt-8">
-                        <button className="flex text-slate-900 items-center rounded-lg p-1 shadow border border-gray-100">Contact Sales <FiArrowUpRight />
-                        </button>
+                    <div className="pt-8 col-span-3">
+                        <ContactBtn />
                     </div>
                 </div>
 
-                <div className=""></div>
+                <div className="bg-white mt-40 grid grid-cols-1  px-7 py-16 gap-8">
+                    <div className="p-7">
+                        <h1 className="text-5xl">Our pre-built solutions help you get off-the-ground quickly</h1>
+                        <p>Solutions in the spaces of enterprise search, question-answering & analytics, customer data platforms, and customer experience, messaging and chatbots</p>
+                    </div>
+                    <div>
+                        <h1>Our pre-built solutions help you get off-the-ground quickly</h1>
+                        <p>Solutions in the spaces of enterprise search, question-answering & analytics, customer data platforms, and customer experience, messaging and chatbots</p>
+                    </div>
+                </div>
 
             </div>
         </div>

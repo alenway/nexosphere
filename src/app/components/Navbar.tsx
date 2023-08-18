@@ -21,8 +21,7 @@ const Navbar = () => {
                     <li className="cursor-pointer">CUSTOMERS</li>
                     <li className="cursor-pointer">About</li>
                 </ul>
-                <button className="flex text-slate-900 items-center rounded-lg p-1 shadow border border-gray-100">Contact Sales <FiArrowUpRight />
-                </button>
+                <ContactBtn />
             </div>
         </div>
     )

@@ -1,3 +1,9 @@
+.bg-gif {
+  background-image: url("../assets/neoGif.gif");
+  background-size: cover; /* Adjust this property based on your preference */
+  background-position: center center; /* Adjust this property based on your preference */
+}
+
 .bg {
   background: rgb(251, 210, 147);
   background: linear-gradient(

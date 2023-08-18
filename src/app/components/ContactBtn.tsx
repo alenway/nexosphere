@@ -3,7 +3,8 @@ import { FiArrowUpRight } from 'react-icons/fi'
 
 const ContactBtn = () => {
     return (
-        <div></div>
+        <div><button className="flex text-slate-900 items-center rounded-lg p-1 shadow border border-gray-100">Contact Sales <FiArrowUpRight />
+        </button></div>
     )
 }
 
