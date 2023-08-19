@@ -5,13 +5,13 @@
 }
 
 .bg {
-  background: rgb(251, 210, 147);
-  background: linear-gradient(
-    90deg,
-    rgba(251, 210, 147, 1) 0%,
-    rgba(235, 216, 197, 1) 27%,
-    rgba(178, 140, 197, 1) 60%,
-    rgba(195, 175, 248, 1) 81%,
-    rgba(197, 219, 250, 1) 100%
+  background-color: #000000;
+  background-size: 86px 30px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #7b7b7b4a,
+    #7b7b7b4a 1px,
+    #000000 1px,
+    #000000
   );
 }
