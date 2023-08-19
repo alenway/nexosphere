@@ -62,9 +62,6 @@ const CombinatioSection = () => {
                     <MySwiperComponent />
                 </div>
             </div>
-
-
-
         </div>
     )
 }
