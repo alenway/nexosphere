@@ -2,6 +2,7 @@
 import React from 'react'
 import ContactBtn from './ContactBtn'
 import MySwiperComponent from './Slider'
+import "./style.css";
 
 
 const CombinatioSection = () => {
@@ -61,6 +62,9 @@ const CombinatioSection = () => {
                     <MySwiperComponent />
                 </div>
             </div>
+
+
+
         </div>
     )
 }
