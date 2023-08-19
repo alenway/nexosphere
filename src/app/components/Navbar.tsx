@@ -1,8 +1,17 @@
 "use client";
-import React from 'react'
+import Link from 'next/link';
+import { Menu, X } from "lucide-react"
 import ContactBtn from './ContactBtn'
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleNavbar = () => {
+        setIsOpen(!isOpen);
+    };
+
+
     return (
         <div className="flex gap-2 px-3">
             <button className="bg-white p-1 rounded-xl text-[#7E7E7E] border border-[#D2D2D2] flex px-2 text-sm shadow-md backdrop-blur-md backdrop-filter justify-center items-center">
@@ -13,16 +22,48 @@ const Navbar = () => {
                 </svg>
                 ONEBYZERO</button>
 
-            <div className="bg-white w-full p-2 pl-8 rounded-xl text-[#7E7E7E] border border-[#D2D2D2] flex  justify-between items-center text-13 shadow-md backdrop-blur-md backdrop-filter">
+            <nav className="bg-white w-full p-2 pl-8 rounded-xl text-[#7E7E7E] border border-[#D2D2D2] flex  justify-between items-center text-13 shadow-md backdrop-blur-md backdrop-filter sticky top-0 z-[20] mx-auto ">
 
-                <ul className="flex text-black uppercase gap-3 font-roobert font-light leading-13 text-sm tracking-tight">
-                    <li className="cursor-pointer py-1">Services</li>
-                    <li className="cursor-pointer py-1">Solutions</li>
-                    <li className="cursor-pointer py-1">CUSTOMERS</li>
-                    <li className="cursor-pointer py-1">About</li>
+                <ul className="sm:flex hidden text-black uppercase gap-3 font-roobert font-light leading-13 text-sm tracking-tight">
+                    <li className="cursor-pointer py-1">
+                        <Link href="/">Services</Link>
+                    </li>
+                    <li className="cursor-pointer py-1">
+                        <Link href="/">Solutions</Link>
+                    </li>
+                    <li className="cursor-pointer py-1">
+                        <Link href="/">CUSTOMERS</Link>
+                    </li>
+                    <li className="cursor-pointer py-1">
+                        <Link href="/">About</Link>
+                    </li>
                 </ul>
+                <div className="sm:hidden">
+                    <button onClick={toggleNavbar}>
+                        {isOpen ? <X /> : <Menu />}
+                    </button>
+                </div>
+                <div>
+                    {isOpen && (
+                        <ul className="flex flex-col text-black uppercase gap-3 font-roobert font-light leading-13 text-sm tracking-tight">
+                            <li className="cursor-pointer py-1">
+                                <Link href="/">Services</Link>
+                            </li>
+                            <li className="cursor-pointer py-1">
+                                <Link href="/">Solutions</Link>
+                            </li>
+                            <li className="cursor-pointer py-1">
+                                <Link href="/">CUSTOMERS</Link>
+                            </li>
+                            <li className="cursor-pointer py-1">
+                                <Link href="/">About</Link>
+                            </li>
+                        </ul>
+                    )}
+                </div>
+
                 <ContactBtn />
-            </div>
+            </nav>
         </div>
     )
 }
