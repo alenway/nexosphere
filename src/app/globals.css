@@ -4,4 +4,12 @@
 
 body {
   background-color: #fbf7f7;
+  background-size: 86px 30px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #7b7b7b4a,
+    #7b7b7b4a 1px,
+    #fbf7f7 1px,
+    #fbf7f7
+  );
 }

@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import "./style.css";
 const TopSection = () => {
     return (
-        <div className='bg-gif'>
+        <div className='bg-gif py-5'>
             <div className='container mx-auto flex flex-col gap-20'>
                 <Navbar />
                 <div className="w-full sm:w-3/4 ">
@@ -14,4 +14,4 @@ const TopSection = () => {
     )
 }
 
-export default TopSection
+export default TopSection;
