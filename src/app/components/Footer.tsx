@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="bg">
             <div className="container mx-auto pt-20 pb-5 px-10 text-white">
-                <div className="grid grid-cols-4">
+                <div className="grid grid-cols-2 md:grid-cols-4">
                     <div className="flex flex-col">
                         <h1 className="text-lg font-medium">Solutions</h1>
                         <ul className="text-lg font-medium ">
@@ -42,7 +42,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="flex flex-col">
+                    <div className="flex flex-col mt-6 md:mt-0">
                         <h1 className="text-lg font-medium">About</h1>
                         <ul className="text-lg font-medium ">
                             <li>
@@ -60,7 +60,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="flex flex-col">
+                    <div className="flex flex-col mt-6 md:mt-0">
                         <h1 className="text-lg font-medium">Contact</h1>
                         <ul className="text-lg font-medium ">
                             <li>
