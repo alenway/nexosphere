@@ -43,9 +43,9 @@ const CombinatioSection = () => {
                 </div>
             </div>
 
-            <div className="bg-white mt-40 grid grid-cols-2 rounded-3xl text-xl px-7 py-16 gap-8">
+            <div className="bg-white mt-40 grid grid-cols-1 md:grid-cols-2 rounded-3xl text-xl px-7 py-16 gap-8">
                 <div className="p-7">
-                    <h1 className="text-5xl">Our pre-built solutions help you get off-the-ground quickly</h1>
+                    <h1 className="text-4xl md:text-5xl">Our pre-built solutions help you get off-the-ground quickly</h1>
                     <p className="mt-10">Solutions in the spaces of enterprise search, question-answering & analytics, customer data platforms, and customer experience, messaging and chatbots</p>
                 </div>
                 <div className="">
@@ -53,9 +53,9 @@ const CombinatioSection = () => {
                 </div>
             </div>
 
-            <div className="bg-white mt-10 grid grid-cols-2 rounded-3xl text-xl px-7 py-16 gap-8">
+            <div className="bg-white mt-10 grid grid-cols-1 md:grid-cols-2 rounded-3xl text-xl px-7 py-16 gap-8">
                 <div className="p-7">
-                    <h1 className="text-5xl">Our deep industry experience and technical expertise help drive measurable business outcomes</h1>
+                    <h1 className="text-4xl md:text-5xl">Our deep industry experience and technical expertise help drive measurable business outcomes</h1>
                     <p className="mt-10">We take a metrics-driven approach in all our consulting services engagements, across various kinds of AI, Data, Martech and Customer engagement projects</p>
                 </div>
                 <div className="">
