@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import "./style.css"
 
 const Footer = () => {
@@ -10,16 +11,16 @@ const Footer = () => {
                         <h1 className="text-lg font-medium">Solutions</h1>
                         <ul className="text-lg font-medium ">
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Hoots</a>
+                                <Link className='opacity-50 hover:opacity-100' href="/hoots">Hoots</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Kuwago</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Kuwago</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Data wise</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Data wise</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Pique</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Pique</Link>
                             </li>
                         </ul>
                     </div>
@@ -28,16 +29,16 @@ const Footer = () => {
                         <h1 className="text-lg font-medium">Services</h1>
                         <ul className="text-lg font-medium ">
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Generative AI</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Generative AI</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Analytics & Machine Learning</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Analytics & Machine Learning</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Data Platforms</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Data Platforms</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Customer Engagement</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Customer Engagement</Link>
                             </li>
                         </ul>
                     </div>
@@ -46,16 +47,16 @@ const Footer = () => {
                         <h1 className="text-lg font-medium">About</h1>
                         <ul className="text-lg font-medium ">
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Company</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Company</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Team</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Team</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Careers</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Careers</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Blog</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Blog</Link>
                             </li>
                         </ul>
                     </div>
@@ -64,16 +65,16 @@ const Footer = () => {
                         <h1 className="text-lg font-medium">Contact</h1>
                         <ul className="text-lg font-medium ">
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Email</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Email</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Facebook</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Facebook</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Twitter</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Twitter</Link>
                             </li>
                             <li>
-                                <a className='opacity-50 hover:opacity-100' href="">Instagram</a>
+                                <Link className='opacity-50 hover:opacity-100' href="">Instagram</Link>
                             </li>
                         </ul>
                     </div>
