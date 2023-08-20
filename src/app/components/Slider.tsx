@@ -3,7 +3,7 @@ import React from 'react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper as SwiperReact, SwiperSlide } from 'swiper/react'; // Rename 'Swiper' here
 
-import appCategory from "../public/appCategory.png"
+import appCategory from "../../../public/appCategory.png"
 import Image from 'next/image'
 
 // Import Swiper styles

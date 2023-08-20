@@ -1,5 +1,5 @@
 .bg-gif {
-  background-image: url("../public/neoGif.gif");
+  background-image: url("../../../public/neoGif.gif");
   background-size: cover; /* Adjust this property based on your preference */
   background-position: center center; /* Adjust this property based on your preference */
 }
